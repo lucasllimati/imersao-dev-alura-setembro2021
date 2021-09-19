@@ -2,11 +2,11 @@
 
 ## 🏃 Desafios
 
-**Conversor de moedas** - Vamos criar um conversor de moedas, que converte dolar em real.
+**Calculadora de média** - vamos criar uma calculadora de média e aprender o que são variáveis e como realizar operações!
 
-**Calculadora** - Vamos criar uma calculadora, que realiza as principais operações.
+**Conversor de moedas** - amos criar um conversor de moedas, onde você conseguirá transformar em reais um produto que estiver com o preço em dólares!
 
-**Mentalista** - Vamos criar uma jogo de adivinhação, onde o programa escolhe um número aleatório e nós vamos tentar acertar. 
+**Mentalista** - vamos criar uma jogo de adivinhação, onde o programa escolhe um número aleatório e nós vamos tentar acertar.
 
 **Aluraflix** - Vamos cirar uma lista (array), depois de criarmos uma lista, vamos exibir os pôsters de todos os nossos filmes preferidos na tela do navegador.
 
