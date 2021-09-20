@@ -66,12 +66,14 @@ body {
   opacity: 0.8;
 }
 
+/* CSS - Lucas */
+
 img {
   max-width: 500px;
   max-height: 250px;
 }
 
-p {
+h3 {
   color: #ffffff;
   text-align: center;
   margin-top: 5px;

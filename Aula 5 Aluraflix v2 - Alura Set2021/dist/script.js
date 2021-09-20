@@ -22,7 +22,7 @@ function listaFilmesNaTela(filme) {
 
 function listaNomeFilmesNaTela(nome) {
   console.log(nome);
-  var elementoNomeFilmeFavorito = "<p>" + nome + "</p>";
+  var elementoNomeFilmeFavorito = "<h3>" + nome + "</h3>";
   var elementoListaNomeFilmes = document.getElementById("listaFilmes");
   elementoListaNomeFilmes.innerHTML = elementoListaNomeFilmes.innerHTML + elementoNomeFilmeFavorito;
   // filmeFavorito.value = "";
