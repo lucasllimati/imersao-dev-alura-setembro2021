@@ -14,16 +14,10 @@ var paulo = {
     pontos: 0
 };
 
-// console.log(rafa.vitorias)
-// console.log(paulo.empates)
-
-console.log(rafa)
-var resultadoDosPontos
-calculaPontos(rafa);
-
-
 function calculaPontos(jogador) {
     var pontos = (jogador.vitorias * 3) + jogador.empates;
-    console.log(pontos);
+    return pontos
 }
-console.log(rafa)
+
+rafa.pontos = calculaPontos(rafa);
+paulo.pontos = calculaPontos(paulo);
