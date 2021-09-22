@@ -82,12 +82,12 @@ function jogar() {
   if (valorCartaJogador > valorCartaMaquina) {
     elementoResultado.innerHTML = "Você venceu"
   } else if (valorCartaJogador < valorCartaMaquina) {
-    elementoResultado.innerHTML = "Você perdeu"
+    elementoResultado.innerHTML = "Você perdeu, a carta da máquina é maior"
   } else {
     elementoResultado.innerHTML = "Você empatou"
   }
 
-
+  console.log(cartaMaquina)
 
   // // seleciona o nome do atributo
   // console.log(atributoSelecionado)
