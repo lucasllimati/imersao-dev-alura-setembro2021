@@ -42,7 +42,20 @@ function sortearCarta() {
   cartaJogador = cartas[numeroCartaJogador];
   console.log(cartaJogador);
 
-  document.getElementById("btnSortear").disabled = true
-  document.getElementById("btnJogar").disabled = false
+  document.getElementById("btnSortear").disabled = true;
+  document.getElementById("btnJogar").disabled = false;
+
+  exibirOpcoes();
 }
 console.log(cartas);
+
+function exibirOpcoes() {
+  var opcoes = document.getElementById("opcoes");
+  var opcoesTexto = ""
+
+  for (var atributo in cartaJogador.atributos) {
+    opcoesTexto += "<input type='radio' name='atributo' value='" + atributo + "'>" + atributo
+  }
+
+  opcoes.innerHTML = opcoesTexto
+}
