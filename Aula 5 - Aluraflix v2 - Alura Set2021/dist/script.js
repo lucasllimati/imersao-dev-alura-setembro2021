@@ -16,7 +16,8 @@ function listaFilmesNaTela(filme) {
   console.log(filme);
   var elementoFilmeFavorito = "<img src=" + filme + ">";
   var elementoListaFilmes = document.getElementById("listaFilmes");
-  elementoListaFilmes.innerHTML = elementoListaFilmes.innerHTML + elementoFilmeFavorito;
+  elementoListaFilmes.innerHTML =
+    elementoListaFilmes.innerHTML + elementoFilmeFavorito;
   // filmeFavorito.value = "";
 }
 
@@ -24,6 +25,7 @@ function listaNomeFilmesNaTela(nome) {
   console.log(nome);
   var elementoNomeFilmeFavorito = "<h3>" + nome + "</h3>";
   var elementoListaNomeFilmes = document.getElementById("listaFilmes");
-  elementoListaNomeFilmes.innerHTML = elementoListaNomeFilmes.innerHTML + elementoNomeFilmeFavorito;
+  elementoListaNomeFilmes.innerHTML =
+    elementoListaNomeFilmes.innerHTML + elementoNomeFilmeFavorito;
   // filmeFavorito.value = "";
 }

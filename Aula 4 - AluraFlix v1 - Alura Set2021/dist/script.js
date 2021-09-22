@@ -28,7 +28,7 @@ var listaFilmes = [
   "https://images.livrariasaraiva.com.br/imagemnet/imagem.aspx/?pro_id=8223847&qld=90&l=830&a=-1=1007943217",
   "https://i.pinimg.com/originals/45/74/e5/4574e53ff190140a2e57431b72b9e66e.jpg",
   "http://lojasaraiva.vteximg.com.br/arquivos/ids/12104391/1001335523.jpg?v=637142230067770000",
-  "https://www.cafecomfilme.com.br/media/k2/items/cache/5f87bb0de25dad19a61b00e0cff4ea7c_XL.jpg?t=20200611_002937"
+  "https://www.cafecomfilme.com.br/media/k2/items/cache/5f87bb0de25dad19a61b00e0cff4ea7c_XL.jpg?t=20200611_002937",
 ];
 
 for (var i = [0]; i < listaFilmes.length; i++) {
