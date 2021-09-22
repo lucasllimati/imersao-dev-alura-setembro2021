@@ -35,6 +35,10 @@ function sortearCarta() {
   console.log(cartaMaquina);
 
   var numeroCartaJogador = parseInt(Math.random() * 3);
+  while (numeroCartaMaquina == numeroCartaJogador) {
+    numeroCartaJogador = parseInt(Math.random() * 3);
+  }
+
   cartaJogador = cartas[numeroCartaJogador];
   console.log(cartaJogador);
 }
