@@ -26,8 +26,8 @@ var cartas3 = {
 };
 
 var cartas = [cartas1, cartas2, cartas3];
-var cartaMaquina = 0;
-var cartaJogador = 0;
+var cartaMaquina;
+var cartaJogador;
 
 function sortearCarta() {
   var numeroCartaMaquina = parseInt(Math.random() * 3);
