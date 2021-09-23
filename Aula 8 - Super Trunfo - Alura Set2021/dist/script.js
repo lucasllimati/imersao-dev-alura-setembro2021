@@ -30,7 +30,7 @@ var cartasGui = {
   },
 };
 
-var cartas = [cartas1, cartas2, cartas3];
+var cartas = [cartasPaulo, cartaRafa, cartasGui];
 var cartaMaquina;
 var cartaJogador;
 
@@ -102,9 +102,28 @@ function jogar() {
 }
 
 function exibirCartaJogador() {
-    var divCartaJogador = document.getElementById("carta-jogador")
-    divCartaJogador.style.backgroundImage = `url(${cartaJogador.imagem})`
-    // divCartaJogador.style.backgroundImage = "url(" + cartaJogador.imagem + ")"
+  var divCartaJogador = document.getElementById("carta-jogador");
+  divCartaJogador.style.backgroundImage = `url(${cartaJogador.imagem})`;
+  // divCartaJogador.style.backgroundImage = "url(" + cartaJogador.imagem + ")"
 
-    var moldura = '<img src="https://www.alura.com.br/assets/img/imersoes/dev-2021/card-super-trunfo-transparent.png" style=" width: inherit; height: inherit; position: absolute;">';
+  var moldura =
+    '<img src="https://www.alura.com.br/assets/img/imersoes/dev-2021/card-super-trunfo-transparent.png" style=" width: inherit; height: inherit; position: absolute;">';
+  var tagHTML = "<div id='opcoes' class='carta-status'>";
+
+  var opcoesTexto = "";
+
+  for (var atributo in cartaJogador.atributos) {
+    opcoesTexto +=
+      "<input type='radio' name='atributo' value='" +
+      atributo +
+      "'>" +
+      atributo +
+      "I" +
+      cartaJogador.atributos[atributo] +
+      "<br>";
+  }
+
+  var nome = `<p class="carta-subtitle">${cartaJogador.nome}</p>`
+
+  divCartaJogador.innerHTML = moldura + nome + tagHTML + opcoesTexto + "</div>"
 }
