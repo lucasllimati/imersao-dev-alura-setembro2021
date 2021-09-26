@@ -89,6 +89,7 @@ body {
 
 .dark .container {
   background: #333439;
+  color: #F6F6F6;
   box-shadow: 6px 6px 6px #0E1D2F;
   border-radius: 20px;
 }
