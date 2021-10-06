@@ -8,7 +8,7 @@
 
 **Mentalista** - vamos criar uma jogo de adivinhação, onde o programa escolhe um número aleatório e nós vamos tentar acertar.
 
-**Aluraflix** - Vamos cirar uma lista (array), depois de criarmos uma lista, vamos exibir os pôsters de todos os nossos filmes preferidos na tela do navegador.
+**Aluraflix** - Vamos cirar uma lista (array), depois de criarmos uma lista, vamos exibir os pôsters de todos os nossos filmes preferidos na tela do navegador. Nesta aula vamos ver a primeira delas, array, um tipo de lista de elementos, assim como algumas ferramentas para alterarmos e trabalharmos com estas listas. Depois de criarmos uma lista, vamos exibir os pôsters de todos os nossos filmes preferidos na tela do navegador.
 
 **Aluraflix com botões** - Vamos refatorar o projeto do AluraFlix da aula anterior para continuar integrando o HTML e o JavaScript, também fazendo com que as partes certas do programa funcionem exatamente no momento certo. Além do código executar somente quando queremos, também vamos ver formas diferentes de usar o JavaScript para acessar o HTML e deixar a visualização mais legal.
 
@@ -18,10 +18,9 @@
 
 **Super Trunfo (cartas)** - Vamos evoluir ainda mais nosso Trunfo, focando em exibir as cartas na tela! Neste programa, vamos descobrir que podemos alterar não só o conteúdo do HTML com Javascript. Vamos aprender como manipular o CSS e exibir nossas cartas no tela.
 
-**Super Trunfo (mais cartas)** - Vamos alterar a lógica do jogo para mais rodadas e com mais cartas! Neste programa, focamos nas primeiras ferramentas principais de qualquer linguagem de programação: variáveis, operadores, além das funções alert e prompt para trocar nossas primeiras mensagens na tela com o usuário.
+**FIGMA, HTML E CSS** - Nesta nona aula da Imersão Dev, desscobriremos como usar o Figma para um layout em código HTML e CSS para o nosso portfólio! Dessa vez, o código da aula será montado a partir do zero, então para isso você deve criar um novo pen em branco no codepen, clicando na sua imagem do perfil e selecionando new pen.
 
-**Certificado** - Vamos focar exclusivamente no HTML e CSS e criar nosso próprio certificado do zero.
-
+**Portfólio** - Nesta décima e última aula da Imersão Dev, você vai evoluir seu portfólio com temas claro e escuro e ainda colocar no ar para que todas as pessoas possam acessar!
 ## 🎮 Projetos
 **Projetos** - Acesse os projetos [Link](https://codepen.io/lucasllimati/full/xxgdEqW).
 
@@ -85,8 +84,8 @@ NUMERO | DESCRIÇÃO
 06 | Tabela de classificação.
 07 | Super Trunfo (lógica).
 08 | Super Trunfo (cartas).
-09 | Super Trunfo (mais cartas).
-10 | Certificado.
+09 | FIGMA, HTML E CSS.
+10 | Portfólio.
 
 
 
